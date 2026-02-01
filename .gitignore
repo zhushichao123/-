@@ -1,0 +1,19 @@
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# API keys
+*.key
+*_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
